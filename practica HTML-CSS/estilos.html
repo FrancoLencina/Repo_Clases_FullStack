@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!--
+        Hay tres maneras de poner estilos:
+        1. Inline(en linea)
+        2. Con la estiqueta <style>
+        3. con una hoja de estilo externa 
+    -->
+
+    <!-- Esto seria a traves de la etiqueta <style> -->
+    <style>
+        h2 {
+            color: rgb(85, 180, 77);
+            font-size: 30px;
+            border-bottom: 3px solid;
+        }
+    </style>
+
+    <!-- Esto sería a traves de una hoja de estilo externa-->
+    <!--  Primero hay que vincular la hoja:-->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- Esto sería inline-->
+    <h1 style="text-align: center; color:rgb(93, 4, 177);font-size: 50px;">Probando estilos</h1>
+
+    <!-- Acá se ve como la etiqueta <style> modifica a todos los h2-->
+        <h2>Modificado por la etiqueta style</h2>
+        <h2>Modificado por la etiqueta style</h2>
+        <h2>Modificado por la etiqueta style</h2>
+
+    <!-- Acá se ve como la hoja de estilo externa modifica todos los h3-->
+    <h3>esto es con la stylesheet externa</h3>
+    <h3>esto es con la stylesheet externa</h3> 
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque at, accusantium modi, impedit aut eveniet
+        asperiores sit temporibus iure fugit cumque. Consequatur omnis error facilis doloremque ipsam praesentium
+        aliquid, quisquam a ab eveniet earum exercitationem.</p>
+
+    <!-- esto es una lista desordenada-->
+    <ul>
+        <li>
+            <!-- a href="#" me sirve para poner enlaces -->
+            <a href="#">link 1</a>
+        </li>
+        <li>
+            <a href="#">link 2</a>
+        </li>
+        <li>
+            <a href="#">link 3</a>
+        </li>
+    </ul>
+
+    <!-- le creo una clase al parrafo para referenciarla en la hoja de estilo y poder modificarla-->
+    <p class="hover-parrafo">parrafo de dudosa procedencia</p>
+    <p class="hover-parrafo" id="parrafo-2">parrafo de dudosa procedencia</p>
+    <p class="hover-parrafo">parrafo de dudosa procedencia</p>
+
+    <!-- le creo una clase a la lista para referenciarla en la hoja de estilo y poder modificarla independientemente de las demás listas-->
+    <ul class="lista-2">
+        <li>
+            <a href="#">link 4</a>
+        </li>
+        <li>
+            <a href="#">link 5</a>
+        </li>
+        <li>
+            <a href="#">link 6</a>
+        </li>
+    </ul>
+
+</body>
+
+</html>

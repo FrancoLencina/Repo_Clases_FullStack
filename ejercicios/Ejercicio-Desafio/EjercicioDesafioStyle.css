@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    font-size: 50px;
+    border-bottom: 3px solid;
+}
+
+p{
+    margin: 20px;
+    background-color: rgb(255, 243, 173);
+}
+
+ul{
+    font-size: 18px;
+}
+
+ul li a:hover{
+    color: rgb(157, 255, 0);
+}
+
+.destacado{
+    color:rgb(204, 1, 1);
+    font-style: italic;
+}
+
+#titulo-principal{
+    color: darkslateblue;
+    text-align: center;
+}
+
+article > p {
+    border-bottom: 2px;
+    border-color: grey;
+}
+
+li > a{
+    background-color: rgb(209, 175, 144);
+}
+

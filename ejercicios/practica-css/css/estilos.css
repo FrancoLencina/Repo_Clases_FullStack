@@ -1,0 +1,38 @@
+/* 
+* {
+    margin: 0px;
+    padding:0px;
+} 
+
+*/
+
+a:hover {
+    color:red;
+}
+
+/* Selector de clase */
+.hover-parrafo:hover {
+    color: red;
+}
+
+#parrafo-dos {
+    color: aquamarine;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h2 + p {
+    color: #fae
+}
+
+ul {
+    list-style: none;
+}
+
+/* .lista-dos > li > a:hover {
+    
+} */
+
+.lista-dos > li:nth-child(odd):hover { 
+  background-color: #FFD986;
+}

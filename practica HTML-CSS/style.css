@@ -1,0 +1,36 @@
+body{
+    background-color:#a7d6e2 ;
+}
+h3{
+    color: rgb(223, 106, 10);
+    font-size: 20px;
+    border-bottom: 3px solid;
+}
+p{
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 187, 255);
+    font-size: 18px;
+}
+ul{
+    font-size: 20px;
+}
+/* :hover maneja la interacción del cursor con algun elemento */
+a:hover{
+    color: rgb(234, 0, 255);
+}
+
+/* con el . referencio la clase hover-parrafo*/
+.hover-parrafo:hover{
+    color: #fafafa;
+}
+
+/* con el # referencio la id de hover-parrafo*/
+#parrafo-2{
+    color: rgb(174, 0, 255);
+    background-color: aquamarine;
+}
+
+/* para modificar algo de un elemento en específico que contiene otros elementos adentro sigo la jerarquia*/
+.lista-2 li a:hover {
+    color: chartreuse;
+}
